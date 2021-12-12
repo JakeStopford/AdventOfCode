@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,5 +18,11 @@
   "homepage": "https://github.com/JakeStopford/AdventOfCode#readme",
   "dependencies": {
     "jest": "^27.4.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "babel-jest": "^27.4.2"
   }
 }
